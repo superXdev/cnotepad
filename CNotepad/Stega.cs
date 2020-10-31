@@ -51,6 +51,7 @@ namespace CNotepad
             DialogResult dr = openFileDialog.ShowDialog();
             if (dr == DialogResult.OK)
             {
+                Cursor.Current = Cursors.WaitCursor;
                 using (ZipFile zip = new ZipFile())
                 {
                     if (usePassword.Checked && !String.IsNullOrEmpty(txtPassword.Text))
@@ -69,6 +70,8 @@ namespace CNotepad
 
                 System.Threading.Thread.Sleep(3000);
                 File.Copy(thisPath + imgTemp, txtOutput.Text, true);
+
+                Cursor.Current = Cursors.Default;
 
                 MessageBox.Show("Completed", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
