@@ -1,6 +1,5 @@
 D:\My_project\On Going\CNotepad\CNotepad\bin\Debug\CNotepad.exe
 D:\My_project\On Going\CNotepad\CNotepad\bin\Debug\CNotepad.pdb
-D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.csprojResolveAssemblyReference.cache
 D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.Form1.resources
 D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.Properties.Resources.resources
 D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.csproj.GenerateResource.Cache

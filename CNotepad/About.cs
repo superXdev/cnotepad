@@ -20,5 +20,10 @@ namespace CNotepad
         {
             this.Close();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Contact me\nfikrizhanking@gmail.com", "Report bug", MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }

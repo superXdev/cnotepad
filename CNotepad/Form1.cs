@@ -20,15 +20,6 @@ namespace CNotepad
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void newToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         /// <summary>
         /// Create a new text
@@ -60,6 +51,10 @@ namespace CNotepad
                     this.Text = Path.GetFileNameWithoutExtension(openFileDialog.FileName) + " - CNotepad";
                     file = openFileDialog.FileName;
                     textLength = mainText.Text.Length;
+                }
+                else
+                {
+                    this.Text = "CNotepad";
                 }
             }
         }

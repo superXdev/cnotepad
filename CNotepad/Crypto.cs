@@ -106,7 +106,7 @@ namespace CNotepad
             }
             catch
             {
-                MessageBox.Show("Password invalid!");
+                MessageBox.Show("Password invalid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return result;
         }
