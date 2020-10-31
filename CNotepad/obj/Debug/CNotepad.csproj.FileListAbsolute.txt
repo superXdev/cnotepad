@@ -11,3 +11,5 @@ D:\My_project\On Going\CNotepad\CNotepad\bin\Debug\CNotepad.exe.manifest
 D:\My_project\On Going\CNotepad\CNotepad\bin\Debug\CNotepad.application
 D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.exe.manifest
 D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.application
+D:\My_project\On Going\CNotepad\CNotepad\obj\Debug\CNotepad.Stega.resources
+D:\My_project\On Going\CNotepad\CNotepad\bin\Debug\Ionic.Zip.dll

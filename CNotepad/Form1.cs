@@ -187,5 +187,10 @@ namespace CNotepad
         {
             new About().Show();
         }
+
+        private void steganographyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Stega().Show();
+        }
     }
 }

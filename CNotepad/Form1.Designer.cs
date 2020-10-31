@@ -231,6 +231,7 @@
             this.steganographyToolStripMenuItem.Name = "steganographyToolStripMenuItem";
             this.steganographyToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.steganographyToolStripMenuItem.Text = "Steganography";
+            this.steganographyToolStripMenuItem.Click += new System.EventHandler(this.steganographyToolStripMenuItem_Click);
             // 
             // base64EncoderToolStripMenuItem
             // 
