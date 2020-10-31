@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CNotepad.exe" size="67584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CNotepad.exe" size="71168">
       <assemblyIdentity name="CNotepad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KU8tkcOWjE7QJXt0msAGwvLIJJc=</dsig:DigestValue>
+        <dsig:DigestValue>EG5bRy5xQI5ixVuGi+X4pvt0a4g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

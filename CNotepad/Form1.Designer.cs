@@ -245,6 +245,7 @@
             this.passwordGeneratorToolStripMenuItem.Name = "passwordGeneratorToolStripMenuItem";
             this.passwordGeneratorToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.passwordGeneratorToolStripMenuItem.Text = "Password Generator";
+            this.passwordGeneratorToolStripMenuItem.Click += new System.EventHandler(this.passwordGeneratorToolStripMenuItem_Click);
             // 
             // Form1
             // 

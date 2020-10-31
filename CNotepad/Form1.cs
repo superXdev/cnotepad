@@ -197,5 +197,10 @@ namespace CNotepad
         {
             new Base64().Show();
         }
+
+        private void passwordGeneratorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new PasswordGenerator().Show();
+        }
     }
 }
