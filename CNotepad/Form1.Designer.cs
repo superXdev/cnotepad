@@ -238,6 +238,7 @@
             this.base64EncoderToolStripMenuItem.Name = "base64EncoderToolStripMenuItem";
             this.base64EncoderToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.base64EncoderToolStripMenuItem.Text = "Base64 Encoder";
+            this.base64EncoderToolStripMenuItem.Click += new System.EventHandler(this.base64EncoderToolStripMenuItem_Click);
             // 
             // passwordGeneratorToolStripMenuItem
             // 

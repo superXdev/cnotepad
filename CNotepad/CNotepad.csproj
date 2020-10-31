@@ -81,6 +81,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Base64.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base64.Designer.cs">
+      <DependentUpon>Base64.cs</DependentUpon>
+    </Compile>
     <Compile Include="Crypto.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -99,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base64.resx">
+      <DependentUpon>Base64.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

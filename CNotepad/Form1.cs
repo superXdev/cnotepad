@@ -192,5 +192,10 @@ namespace CNotepad
         {
             new Stega().Show();
         }
+
+        private void base64EncoderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Base64().Show();
+        }
     }
 }
