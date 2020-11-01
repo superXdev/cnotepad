@@ -9,7 +9,7 @@ namespace CNotepad
 {
     class Prompt
     {
-        public static string ShowDialog()
+        public static string ShowDialog(string msg = "Enter Password")
         {
             Form prompt = new Form()
             {
@@ -20,7 +20,7 @@ namespace CNotepad
                 StartPosition = FormStartPosition.CenterParent
             };
 
-            Label textLbl = new Label() { Left = 50, Top = 20, Width=150, Text = "Enter Password", Font = new Font("Arial", 11) };
+            Label textLbl = new Label() { Left = 50, Top = 20, Width=150, Text = msg, Font = new Font("Arial", 11) };
             TextBox txtBox = new TextBox() { Left = 50, Top = 45, Width = 400, PasswordChar = '#', TextAlign = HorizontalAlignment.Center, Font = new Font("Arial", 12) };
             Button btnConfirm = new Button() { Text = "Ok", Left = 350, Width = 100, Top = 73, DialogResult = DialogResult.OK };
 

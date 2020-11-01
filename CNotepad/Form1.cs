@@ -148,7 +148,7 @@ namespace CNotepad
 
         private void saveText()
         {
-            string mykey = Prompt.ShowDialog();
+            string mykey = Prompt.ShowDialog("Set Password");
 
             if (String.IsNullOrEmpty(mykey))
                 return;
@@ -196,6 +196,24 @@ namespace CNotepad
         private void passwordGeneratorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new PasswordGenerator().Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string[] args = Environment.GetCommandLineArgs();
+
+
+            if (args.Length > 1)
+            {
+                string mykey = Prompt.ShowDialog();
+                mainText.Text = Crypto.DecryptFile(args[1], mykey);
+                if (mainText.Text.Length > 0 && File.Exists(args[1]))
+                {
+                    this.Text = Path.GetFileNameWithoutExtension(args[1]) + " - CNotepad";
+                    file = args[1];
+                    textLength = mainText.Text.Length;
+                }
+            }
         }
     }
 }
