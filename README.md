@@ -1,5 +1,5 @@
 # CNotepad v1.8.1-rc (Cryptographic Notepad)
-![Image]()
+![Image](https://github.com/superXdev/cnotepad/raw/main/CNotepad/images/1.PNG)
 CNotepad is a cryptographic notepad that can store & open encrypted text files (secured) and has other features. Build with C# .Net
 * Open & Save secured text documents (.stxt)
 * Steganography (insert files to image)
@@ -12,6 +12,6 @@ CNotepad is a cryptographic notepad that can store & open encrypted text files (
 3. Follow step until finish.
 
 ## Other screenshots
-![Image 2]()
-![Image 3]()
-![Image 4]()
+![Image 2](https://github.com/superXdev/cnotepad/raw/main/CNotepad/images/2.PNG)
+![Image 3](https://github.com/superXdev/cnotepad/raw/main/CNotepad/images/3.PNG)
+![Image 4](https://github.com/superXdev/cnotepad/raw/main/CNotepad/images/4.png)
