@@ -29,6 +29,7 @@ namespace CNotepad
         private void newToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             file = "";
+            password = "";
             this.Text = "CNotepad";
             mainText.Text = "";
         }
@@ -51,6 +52,7 @@ namespace CNotepad
                     this.Text = Path.GetFileNameWithoutExtension(openFileDialog.FileName) + " - CNotepad";
                     file = openFileDialog.FileName;
                     textLength = mainText.Text.Length;
+                    password = mykey;
                 }
                 else
                 {
@@ -146,6 +148,9 @@ namespace CNotepad
             }
         }
 
+        /// <summary>
+        /// Save new text file
+        /// </summary>
         private void saveText()
         {
             string mykey = Prompt.ShowDialog("Set Password");
@@ -212,6 +217,7 @@ namespace CNotepad
                     this.Text = Path.GetFileNameWithoutExtension(args[1]) + " - CNotepad";
                     file = args[1];
                     textLength = mainText.Text.Length;
+                    password = mykey;
                 }
             }
         }

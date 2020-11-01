@@ -9,6 +9,7 @@ namespace CNotepad
 {
     class Prompt
     {
+        static Button btnConfirm = new Button() { Text = "Ok", Left = 350, Width = 100, Top = 73, DialogResult = DialogResult.OK };
         public static string ShowDialog(string msg = "Enter Password")
         {
             Form prompt = new Form()
@@ -22,13 +23,23 @@ namespace CNotepad
 
             Label textLbl = new Label() { Left = 50, Top = 20, Width=150, Text = msg, Font = new Font("Arial", 11) };
             TextBox txtBox = new TextBox() { Left = 50, Top = 45, Width = 400, PasswordChar = '#', TextAlign = HorizontalAlignment.Center, Font = new Font("Arial", 12) };
-            Button btnConfirm = new Button() { Text = "Ok", Left = 350, Width = 100, Top = 73, DialogResult = DialogResult.OK };
 
             prompt.Controls.Add(textLbl);
             prompt.Controls.Add(txtBox);
             prompt.Controls.Add(btnConfirm);
 
+            txtBox.KeyDown += Enter_KeyDown;
+
+
             return prompt.ShowDialog() == DialogResult.OK ? txtBox.Text : "";
+        }
+
+        private static void Enter_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnConfirm.PerformClick();
+            }
         }
     }
 }
