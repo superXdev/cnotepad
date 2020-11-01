@@ -7,7 +7,7 @@ CNotepad is a cryptographic notepad that can store & open encrypted text files (
 * Password Generator
 
 ## Installation
-1. Download installer [here](https://drive.google.com/file/d/18nOPFz2Wu1sVUWDdteKEkhlSluEOUZ7T/view?usp=sharing)
+1. Download installer [here](https://superxdev.github.io/opensource/cnotepad.html)
 2. Run `CNotepad-1.8.1-rc-setup.exe`
 3. Follow step until finish.
 
